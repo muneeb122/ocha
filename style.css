@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
+    background-color: #100f0f; /* Set background color */
+    color: #878580; /* Set text color */
 }
 
 h1 {
@@ -21,15 +23,12 @@ p {
 }
 
 .link-list li a {
-    color: #007bff;
+    color: #cecdc3; /* Set link color */
     text-decoration: none;
+    transition: color 0.3s; /* Smooth transition for color change */
 }
 
 .link-list li a:hover {
+    color: #52b1a8; /* Set link color on hover */
     text-decoration: underline;
-}
-
-.date {
-    color: #888;
-    font-style: italic;
 }
