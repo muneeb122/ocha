@@ -2,20 +2,35 @@ body {
     font-family: "Inter", "IBM Plex Sans", Segoe UI, Helvetica, Arial, sans-serif;
     margin: 20px;
     background-color: #100f0f; /* Set background color */
-    color: #878580; /* Set text color */
 }
 
 h1 {
     color: #878580;
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+
+h2 {
+    color: #878580;
+    font-size: 1.25rem;
+    font-weight: normal;
 }
 
 p {
-    color: #878580;
+    color: #cecdc3;
+    font-size: 1rem;
+}
+
+.date {
+    color: #888;
+    font-size: 1rem;
 }
 
 .link-list {
     list-style-type: none;
     padding: 0;
+    font-size: 1.25rem;
+    font-weight: normal;
 }
 
 .link-list li {
@@ -31,9 +46,4 @@ p {
 .link-list li a:hover {
     color: #52b1a8; /* Set link color on hover */
     text-decoration: underline;
-}
-
-.date {
-    color: #888;
-    font-style: italic;
 }
