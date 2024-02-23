@@ -41,7 +41,7 @@
 body {
     width: 55%; /* Set the width to 55% */
     max-width: 600px; /* Limit the maximum width */
-    line-height: 135%;
+    line-height: 140%;
     font-family: "Inter", "IBM Plex Sans", Segoe UI, Helvetica, Arial, sans-serif;
     font-weight: 300;
     justify-content: center;
@@ -52,9 +52,9 @@ body {
 }
 
 h1 {
-    color: #878580;
-    font-size: 1rem;
-    font-weight: 400;
+    color: #cecdc3;
+    font-size: 1.5rem;
+    font-weight: 300;
 }
 
 h2 {
@@ -66,6 +66,9 @@ h2 {
 p {
     color: #cecdc3;
     font-size: 1rem;
+    margin: 16px 0;
+    letter-spacing: .8px;
+    font-weight: 300;
 }
 
 a {
@@ -80,6 +83,11 @@ a:hover {
     color: #878580;
 }
 
+p.muted.subhead {
+    color: #878580;
+    margin-bottom:40px; 
+}
+
 .date {
     color: #878580;
     font-size: 1rem;
@@ -91,6 +99,7 @@ a:hover {
     padding: 0px 0;
     font-size: 1rem;
     font-weight: 300;
+    letter-spacing: .4px;
 }
 
 .link-list li {
