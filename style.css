@@ -1,15 +1,13 @@
 
-/* header {
-    padding: 24px 0;
-} */
+
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #cecdc3;
-    padding-top: 32px;
-    padding-bottom: 8px;
+    padding-top: 48px;
+    padding-bottom: 16px;
 }
 
 .navbar .navbar-left {
@@ -24,13 +22,13 @@
 .logo {
     color: #cecdc3;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.15rem;
 }
 
 .navbar a {
     color: #cecdc3;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.15rem;
 }
 
 .navbar a:hover {
@@ -42,7 +40,7 @@
 body {
     width: 55%; /* Set the width to 55% */
     max-width: 600px; /* Limit the maximum width */
-    line-height: 140%;
+    line-height: 150%;
     font-family: "Inter", "IBM Plex Sans", Segoe UI, Helvetica, Arial, sans-serif;
     font-weight: 300;
     justify-content: center;
@@ -50,6 +48,7 @@ body {
     height: 100vh;
     margin: 0 auto; /* Center the main content */
     background-color: #100f0f; /* Set background color */
+    
 }
 
 h1 {
@@ -60,13 +59,13 @@ h1 {
 
 h2 {
     color: #878580;
-    font-size: 1rem;
+    font-size: 1.15rem;
     font-weight: 400;
 }
 
 p {
     color: #cecdc3;
-    font-size: 1rem;
+    font-size: 1.15rem;
     margin: 16px 0;
     letter-spacing: .8px;
     font-weight: 300;
@@ -74,10 +73,12 @@ p {
 
 a {
     color: #cecdc3;
+    font-size: 1.15rem;
 }
 
 a:hover {
     color: #52b1a8; /* Set link color on hover */
+    
 }
 
 .muted {
@@ -91,14 +92,14 @@ p.muted.subhead {
 
 .date {
     color: #878580;
-    font-size: 1rem;
+    font-size: 1.15rem;
     font-weight: 300;
 }
 
 .link-list {
     list-style-type: none;
     padding: 0px 0;
-    font-size: 1rem;
+    font-size: 1.15rem;
     font-weight: 300;
     letter-spacing: .4px;
 }
@@ -125,6 +126,14 @@ p.muted.subhead {
 ::selection {
     background-color: #172625; /* Change highlight color */
     color: #cecdc3;
+}
+
+footer {
+    padding-bottom: 8px;
+}
+
+footer.p {
+    font-size: .8rem;
 }
 
 
