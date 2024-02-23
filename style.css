@@ -40,7 +40,7 @@
 
 body {
     width: 55%; /* Set the width to 55% */
-    max-width: 800px; /* Limit the maximum width */
+    max-width: 655px; /* Limit the maximum width */
     line-height: 135%;
     font-family: "Inter", "IBM Plex Sans", Segoe UI, Helvetica, Arial, sans-serif;
     font-weight: 300;
