@@ -1,19 +1,66 @@
+
+/* header {
+    padding: 24px 0;
+} */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #cecdc3;
+    padding: 24px 0;
+}
+
+.navbar .navbar-left {
+    flex: 1; /* Takes up remaining space */
+}
+
+.navbar .navbar-right {
+    flex: 1; /* Takes up remaining space */
+    text-align: right;
+}
+
+.logo {
+    color: #cecdc3;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar a {
+    color: #cecdc3;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar a:hover {
+    color: #52b1a8; /* Change color on hover */
+}
+
+
+
 body {
+    width: 55%; /* Set the width to 55% */
+    max-width: 800px; /* Limit the maximum width */
+    line-height: 135%;
     font-family: "Inter", "IBM Plex Sans", Segoe UI, Helvetica, Arial, sans-serif;
-    margin: 20px;
+    font-weight: 300;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto; /* Center the main content */
     background-color: #100f0f; /* Set background color */
 }
 
 h1 {
     color: #878580;
-    font-size: 1.25rem;
-    font-weight: normal;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 h2 {
     color: #878580;
-    font-size: 1.25rem;
-    font-weight: normal;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 p {
@@ -21,16 +68,29 @@ p {
     font-size: 1rem;
 }
 
+a {
+    color: #cecdc3;
+}
+
+a:hover {
+    color: #52b1a8; /* Set link color on hover */
+}
+
+.muted {
+    color: #878580;
+}
+
 .date {
-    color: #888;
+    color: #878580;
     font-size: 1rem;
+    font-weight: 300;
 }
 
 .link-list {
     list-style-type: none;
-    padding: 0;
+    padding: 0px 0;
     font-size: 1rem;
-    font-weight: normal;
+    font-weight: 300;
 }
 
 .link-list li {
@@ -40,10 +100,26 @@ p {
 .link-list li a {
     color: #cecdc3; /* Set link color */
     text-decoration: underline;
-    transition: color 0.3s; /* Smooth transition for color change */
 }
 
 .link-list li a:hover {
     color: #52b1a8; /* Set link color on hover */
     text-decoration: underline;
+}
+
+.divider {
+    margin: 40px 0;
+    border-bottom: 1px solid #282726; /* Divider line */
+}
+
+::selection {
+    background-color: #172625; /* Change highlight color */
+    color: #cecdc3;
+}
+
+
+@media only screen and (max-width: 600px) {
+    main {
+        width: 100%; /* Full width on mobile */
+    }
 }
