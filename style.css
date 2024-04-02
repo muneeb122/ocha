@@ -139,6 +139,6 @@ footer.p {
 
 @media only screen and (max-width: 600px) {
     body {
-        width: 85%; /* Full width on mobile */
+        width: 90%; /* Full width on mobile */
     }
 }
